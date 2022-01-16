@@ -1,10 +1,49 @@
-# Getting Started with Create React App
+# Codecademy Jammming Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of contents
 
-## Available Scripts
+- [Project Goals](#project-goals)
+- [Built with](#built-with)
+- [How to use](#how-to-use)
+- [Challenges and Credits](#challenges-and-credits)
 
-In the project directory, you can run:
+## Project Goals
+
+I. **Project Context**
+
+- In this project, you will build a React web application called Jammming. You will use your knowledge of React components, state, and requests with the Spotify API to build a website that allows users to search the Spotify library, create a custom playlist, then save it to their Spotify account.
+
+II. **Project Features**
+
+- Spotify Login — the first time a user searches for a song, album, or artist, Spotify will ask them to log in or set up a new account.
+- Search by Song, Album, or Artist — a user can type the name of a song, artist, or album into the search bar and click the SEARCH button.
+- Populate Results List — Jammming displays the list of returned tracks from the user’s query.
+- Add Song to a Custom Playlist — users can add a track to their playlist by selecting a + sign on the right side of the track’s display container.
+- Remove Song from Custom Playlist — users can remove a track from their playlist by selecting a - sign on the right side of the track’s display container.
+- Change Playlist Title — users can change the title of their custom playlist.
+- Save Playlist to Account — users can save their custom playlist by clicking a button called SAVE TO SPOTIFY.
+
+III. **Resources**
+
+- > Because we want you to focus on building the React infrastructure, we have provided links to the HTML/CSS and visual assets below. Notice, we did not break the HTML and CSS into their components. To complete the project you will need to split the HTML/CSS into their components.
+  > <br> [index.html](https://s3.amazonaws.com/codecademy-content/programs/react/jammming/static-html-css/indexHtml.txt) — all of the HTML for a static version of the website.
+  > <br> [style.css](https://s3.amazonaws.com/codecademy-content/programs/react/jammming/static-html-css/indexCss.txt) — all of the CSS for a static version of the website.
+  > <br> [image assets](https://s3.amazonaws.com/codecademy-content/programs/react/jammming/image_assets.zip) — all of the image assets used in the website.
+
+## Built with
+
+- React
+- Git, GitHub
+
+## How to use
+
+I. **Application setup**
+
+- Create an application in your [Spotify developer accout](https://developer.spotify.com/dashboard/applications).
+- Add your application url `localhost:3000 (for example)` to your application Redirect URIs.
+- Change your `.env` file `REACT_APP_API_KEY` to your application Client ID and `REACT_APP_REDIRECT_URL` to your application url.
+
+II. **In the project directory, you can run:**
 
 ### `npm start`
 
@@ -39,32 +78,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Challenges and Credits
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This was a practice project from the full stack program at Codeacademy.
