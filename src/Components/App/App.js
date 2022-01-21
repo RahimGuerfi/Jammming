@@ -11,7 +11,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      blocking: false,
+      blocking: true,
       searchResults: [],
       playlistName: "Playlist Name",
       playlistTracks: [],

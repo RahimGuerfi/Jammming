@@ -1,4 +1,6 @@
 import "./BlockUI.css";
+import loader from "./loader.png";
+
 const BlockUI = ({ blocking }) => {
   if (!blocking) {
     return "";
@@ -7,7 +9,7 @@ const BlockUI = ({ blocking }) => {
       <div className="overlay">
         <div className="overlay_inner">
           <div className="overlay_content">
-            <span className="spinner"></span>
+            <img src={loader} className="loader" alt="loader" />
             <h3>Loading...</h3>
           </div>
         </div>
